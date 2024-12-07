@@ -1,10 +1,17 @@
 # ITTP
-an application that helps:
-- converting from image to english text
-- translate from english text to vietnamese
-- transform it into a pdf file.
+Ứng dụng giúp đăng tải nhiều file ảnh văn bản tiếng Anh và chuyển thành các file pdf tiếng Việt tương ứng. Các bước bao gồm:
+1. Người dùng upload một hoặc nhiều ảnh lên hệ thống;
+2. Hệ thống chuyển ảnh sang dạng văn bản tiếng Anh;
+3. Hệ thống dịch văn bản tiếng anh sang tiếng Việt;
+4. Hệ thống chuyển mỗi văn bản thành một file pdf;
+5. Hệ thống trả lại người dùng một file zip chứa các file pdf.
+
+## Mục lục
+[]
+- Nhận dạng văn bản
 ## Libraries and Framework
-React, RabbitMQ, pdfkit, multer, tesseract, react-toastify, cors, @iamtraction/google-translate, axios, tailwindCSS
+React, RabbitMQ, express.js, pdfkit, multer, tesseract, react-toastify, cors, @iamtraction/google-translate, axios, tailwindCSS
+
 ## Prerequisites
 - Node.js
 - RabbitMQ: kết nối với RabbitMQ server 
